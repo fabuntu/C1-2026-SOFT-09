@@ -19,7 +19,7 @@ public class MenuPrin {
                 break;
             case 3:
                 JOptionPane.showMessageDialog(null,"Saliendo del Programa");
-                Continuar=true;
+                Continuar=false;
                 break;
             default:
                 JOptionPane.showMessageDialog(null,"Ingrese una opción válida");
