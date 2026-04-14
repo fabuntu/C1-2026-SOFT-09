@@ -1,4 +1,4 @@
-package com.mycompany.finalpetshop;
+package com.mycompany.tiendita;
 
 import javax.swing.JOptionPane;
 
@@ -19,7 +19,7 @@ public class MenuPrin {
                 break;
             case 3:
                 JOptionPane.showMessageDialog(null,"Saliendo del Programa");
-                Continuar=false;
+                Continuar=true;
                 break;
             default:
                 JOptionPane.showMessageDialog(null,"Ingrese una opción válida");
